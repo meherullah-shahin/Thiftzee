@@ -1,0 +1,20 @@
+.contactTextField{
+    /* height: '100%' !important; */
+}
+.css-jmilm0-MuiFormLabel-root-MuiInputLabel-root{
+    font-size: 16px!important;
+    letter-spacing: -.33px!important;
+    padding-left: 20px!important;
+}
+.test fieldset{
+    border-radius: 0px!important;
+}
+@media screen and (max-width: 600px){
+    .contactCard{
+        width: 90%;
+        margin: auto;
+        padding: 0px;
+    }
+    
+    
+}

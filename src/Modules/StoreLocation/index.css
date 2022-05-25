@@ -1,0 +1,25 @@
+@media screen and (max-width: 667px) {
+  .pick-location {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .location-picker .MuiPaper-root.MuiDialog-paper {
+    max-width: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100vw;
+  }
+}
+.send-icon {
+  transform: rotate(-25deg);
+  font-size: 15px;
+}
+.search-icon {
+  font-size: 15px;
+}
+.my-location .MuiInputBase-input {
+  cursor: pointer;
+}

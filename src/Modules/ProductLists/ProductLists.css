@@ -1,0 +1,46 @@
+@media screen and (max-width: 1170px) {
+  .icon-responsive.MuiButton-outlined {
+    font-size: 12px;
+    height: 30px;
+  }
+  .img-responsive {
+    height: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product-list-header,
+  .banner-img {
+    display: none;
+  }
+
+  .search-filter {
+    background: #ff5943;
+    margin: 0 !important;
+    display: block !important;
+    padding: 10px;
+  }
+  .search-bar {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .search {
+    margin: 10px 0 !important;
+    background-color: white;
+    border-radius: 30px;
+  }
+  #filter-icon-color {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(292deg)
+      brightness(120%) contrast(100%);
+  }
+}
+@media screen and (min-width: 768px) {
+  .img-responsive {
+    filter: invert(75%) sepia(7%) saturate(3986%) hue-rotate(147deg)
+      brightness(82%) contrast(89%);
+  }
+  #filter-icon-color {
+    filter: invert(70%) sepia(9%) saturate(750%) hue-rotate(316deg)
+      brightness(9%) contrast(19%);
+  }
+}

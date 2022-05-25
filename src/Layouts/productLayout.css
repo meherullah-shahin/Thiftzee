@@ -1,0 +1,11 @@
+.product-layout {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: linear-gradient(to bottom, #FF5943 32vw, #E5E5E5 32vw); */
+    /* margin: 0 auto !important;
+    max-width: 1240px; */
+    min-height: 100vh;
+}
